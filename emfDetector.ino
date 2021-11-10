@@ -38,7 +38,7 @@ byte digitMatrix[noOfDigits][segSize - 1] = {
   {1, 0, 1, 1, 1, 1, 1}, // 6
   {1, 1, 1, 0, 0, 0, 0}, // 7
   {1, 1, 1, 1, 1, 1, 1}, // 8
-  {1,1,1,1,0,1,1} //9
+  {1, 1, 1, 1, 0, 1, 1} //9
 };
 
 
@@ -47,21 +47,6 @@ void displayNumber(byte digit) {
   for (int i = 0; i < segSize - 1; i++) {
       digitalWrite(segments[i], digitMatrix[digit][i]);
   }
-  
-}
-
-void setup() {
-
-  //the anthena will capture the emf signal
-  pinMode(anthenaPin, INPUT);
-  pinMode(buzzerPin, OUTPUT);
-  
-  // the display pins are all used for output
-  for (int i = 0; i < segSize; i++) {
-      pinMode(segments[i], OUTPUT);
-  }
-
-  Serial.begin(9600);
   
 }
 
@@ -77,6 +62,21 @@ int readSamples(){
    averaging = averaging/sampleSize;
    return averaging;
    
+}
+
+void setup() {
+
+  //the anthena will capture the emf signal
+  pinMode(anthenaPin, INPUT);
+  pinMode(buzzerPin, OUTPUT);
+  
+  // the display pins are all used for output
+  for (int i = 0; i < segSize; i++) {
+      pinMode(segments[i], OUTPUT);
+  }
+
+  Serial.begin(9600);
+  
 }
 
 void loop() {
