@@ -47,5 +47,16 @@ Duration: 5 seconds.
 ### Video demonstration ###
 https://www.youtube.com/watch?v=FuNRmDtvhxA&ab_channel=AlexandruOana
 
-# Homework 3
+# Homework 3 (ELECTROMAGNETIC FIELD DETECTOR)
+### Requirements ###
+
+• Components: a buzzer and a 7-segment display
+
+• Task: detects EMF (check body and near outlets). It prints the value on the 7-segment display and makes a sound based on the intensity.
+
+### Picture of setup ###
+![IMG_20211110_214938](https://user-images.githubusercontent.com/62179598/141189574-25c48259-1d68-4510-8d50-db2718c7baa0.jpg)
+
+### Video demonstration ###
+https://youtu.be/l5X7xixCLCI
 
