@@ -60,3 +60,16 @@ https://www.youtube.com/watch?v=FuNRmDtvhxA&ab_channel=AlexandruOana
 ### Video demonstration ###
 https://youtu.be/l5X7xixCLCI
 
+
+# Homework 4 (4-digit 7-segment display with joystick and shift register)
+### Requirements ###
+• Components: a joystick, a 4 digit 7-segment display, a 74hc595 shift register
+
+• Task: First state: A joystick axis can be used to cycle through the 4 digits; using the other axis does nothing. A blinking decimal point shows the current digit position. When pressing the button, it locks in on the selected digit and enter the second state. In this state, the decimal point stays always on, no longer blinking and the axis can no longer be used to cycle through the 4 digits. Instead, the other axis can be used to increment or decrement the number on the current digit. Pressing the button again returns to the previous state.
+
+### Picture of setup ###
+![WhatsApp Image 2021-11-17 at 18 41 01 (1)](https://user-images.githubusercontent.com/62179598/142243895-c856dd5c-d2ed-43d4-893c-850c4c1784fe.jpeg)
+
+
+### Video demonstration ###
+https://www.youtube.com/watch?v=oXStTMpoZFs&ab_channel=AlexandruOana
