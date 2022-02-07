@@ -1,5 +1,5 @@
-# IntroductionToRobotics
-Repo for Introduction to Robotics course
+# Robotics Projects
+Repo containing small projects i made for the Introduction to Robotics course
 
 
 Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. Each homework includes requirements, implementation details, code and image files.
