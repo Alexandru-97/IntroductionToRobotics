@@ -5,7 +5,7 @@ Repo containing small projects i made for the Introduction to Robotics course
 Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. Each homework includes requirements, implementation details, code and image files.
 
 
-# Homework 1 (RGB LED)
+# Project 1 (RGB LED)
 
 ### Requirements ###
 
@@ -20,7 +20,7 @@ Components: RBG led (1 minimum), potentiometers (3 minimum), resistors and wires
 ### Video demonstration ###
 https://youtu.be/kEyHzu88KyY
 
-# Homework 2 (TRAFFIC LIGHTS FOR PEOPLE AND CARS)
+# Project 2 (TRAFFIC LIGHTS FOR PEOPLE AND CARS)
 ### Requirements ###
 
 • Components: 5 LEDs, 1 button, 1 buzzer, resistors and wires (per logic)
@@ -47,7 +47,7 @@ Duration: 5 seconds.
 ### Video demonstration ###
 https://www.youtube.com/watch?v=FuNRmDtvhxA&ab_channel=AlexandruOana
 
-# Homework 3 (ELECTROMAGNETIC FIELD DETECTOR)
+# Project 3 (ELECTROMAGNETIC FIELD DETECTOR)
 ### Requirements ###
 
 • Components: a buzzer and a 7-segment display
@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=FuNRmDtvhxA&ab_channel=AlexandruOana
 https://youtu.be/l5X7xixCLCI
 
 
-# Homework 4 (4-digit 7-segment display with joystick and shift register)
+# Project 4 (4-digit 7-segment display with joystick and shift register)
 ### Requirements ###
 • Components: a joystick, a 4 digit 7-segment display, a 74hc595 shift register
 
